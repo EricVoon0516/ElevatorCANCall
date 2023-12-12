@@ -29,6 +29,7 @@
 | handicapped COP | 0x008 | Bit0 : door open <br/> Bit1 : door close | 0x85 | SM09 OUTPUT / BES CAR 4 <br/> Bit0 : JP6.1    / JP9.1 <br/> Bit1 : JP6.2    / JP9.2 <br/> Bit2 : JP6.3    / JP9.3 <br/> Bit3 : JP7.1    / JP6.1 <br/> Bit4 : JP8.1    / JP7.1 <br/> Bit5 : JP9.1    / JP8.1 <br/> Bit6 : LED D21 <br/> Bit7 : | 
 | slave COP | 0x008 | Bit0 : door open <br/> Bit1 : door close | 0x86 | SM09 OUTPUT / BES CAR 4 <br/> Bit0 : JP6.1    / JP9.1 <br/> Bit1 : JP6.2    / JP9.2 <br/> Bit2 : JP6.3    / JP9.3 <br/> Bit3 : JP7.1    / JP6.1 <br/> Bit4 : JP8.1    / JP7.1 <br/> Bit5 : JP9.1    / JP8.1 <br/> Bit6 : LED D21 <br/> Bit7 : | 
 ||||||
+||||||
 |**Data[4]**| Bit5 : Floor button beep enabled |
 
 
