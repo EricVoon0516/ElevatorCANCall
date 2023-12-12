@@ -20,8 +20,9 @@
 | slave COP | 0x008 | 0x10 | 0x0A | 56 - 49 | 64 - 57 | 72 - 65 | 80 - 73 | 88 - 81 | 96 - 89 |
 
 ## Car door button light output signal
+
 | ID | ID | DATA | DATA | DATA | DATA | DATA | DATA | DATA | DATA |
-|:---------------:|:-----:|:----------------------------------:|:----:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----:|:--------------------------------:|:-------------------------:|:--------------------------:|:-------------------------:|
+|---|---|---|---|---|---|---|---|---|---|
 | ID | ID | D[0] | D[1] | D[2] | D[3] | D[4] | D[5] | D[6] | D[7] |
 | master COP | 0x008 | Bit0 : door open
 Bit1 : door close | 0x83 | SM09 OUTPUT / BES CAR 4  
@@ -68,6 +69,74 @@ Bit4 : JP8.1    / JP7.1
 Bit5 : JP9.1    / JP8.1
 Bit6 : LED D21
 Bit7 : |  | Bit5 : Floor button beep enabled |  |  |  |
+
+| ID | ID | DATA | DATA | DATA | DATA | DATA | DATA | DATA | DATA |
+|---|---|---|---|---|---|---|---|---|---|
+| ID | ID | D[0] | D[1] | D[2] | D[3] | D[4] | D[5] | D[6] | D[7] |
+| master COP | 0x00A | Bit0 : JP5.1 Input GX0 attendant reversion
+Bit1 : JP5.2 Input GX1 attendant
+Bit2 : JP5.3 Input GX2 independent
+Bit3 : JP5.4 Input GX3 attendant bypass
+Bit4 : JP5.5 Input GX4 fireman
+Bit5 : JP6 GX5 door opening button
+Bit6 : JP7 GX6 door closed button
+Bit7 : | 0x7E | SM09 INPUT / BES CAR 4
+Bit0 : JP3.1  / JP10.1 
+Bit1 : JP3.2  / JP10.2
+Bit2 : JP3.3  / JP10.3
+Bit3 : JP4.1  / JP11.1
+Bit4 : JP4.2  / JP11.2
+Bit5 : JP5.1  / JP12.1
+Bit6 : 
+Bit7 : |  |  |  |  |  |
+| rear door COP | 0x00B | Bit0 : JP5.1 Input GX0 attendant reversion
+Bit1 : JP5.2 Input GX1 attendant
+Bit2 : JP5.3 Input GX2 independent
+Bit3 : JP5.4 Input GX3 attendant bypass
+Bit4 : JP5.5 Input GX4 fireman
+Bit5 : JP6 GX5 door opening button
+Bit6 : JP7 GX6 door closed button
+Bit7 : | 0x7F | SM09 INPUT / BES CAR 4
+Bit0 : JP3.1  / JP10.1 
+Bit1 : JP3.2  / JP10.2
+Bit2 : JP3.3  / JP10.3
+Bit3 : JP4.1  / JP11.1
+Bit4 : JP4.2  / JP11.2
+Bit5 : JP5.1  / JP12.1
+Bit6 : 
+Bit7 : |  |  |  |  |  |
+| handicapped COP | 0x00C | Bit0 : JP5.1 Input GX0 attendant reversion
+Bit1 : JP5.2 Input GX1 attendant
+Bit2 : JP5.3 Input GX2 independent
+Bit3 : JP5.4 Input GX3 attendant bypass
+Bit4 : JP5.5 Input GX4 fireman
+Bit5 : JP6 GX5 door opening button
+Bit6 : JP7 GX6 door closed button
+Bit7 : | 0x80 | SM09 INPUT / BES CAR 4
+Bit0 : JP3.1  / JP10.1 
+Bit1 : JP3.2  / JP10.2
+Bit2 : JP3.3  / JP10.3
+Bit3 : JP4.1  / JP11.1
+Bit4 : JP4.2  / JP11.2
+Bit5 : JP5.1  / JP12.1
+Bit6 : 
+Bit7 : |  |  |  |  |  |
+| slave COP | 0x00D | Bit0 : JP5.1 Input GX0 attendant reversion
+Bit1 : JP5.2 Input GX1 attendant
+Bit2 : JP5.3 Input GX2 independent
+Bit3 : JP5.4 Input GX3 attendant bypass
+Bit4 : JP5.5 Input GX4 fireman
+Bit5 : JP6 GX5 door opening button
+Bit6 : JP7 GX6 door closed button
+Bit7 : | 0x81 | SM09 INPUT / BES CAR 4
+Bit0 : JP3.1  / JP10.1 
+Bit1 : JP3.2  / JP10.2
+Bit2 : JP3.3  / JP10.3
+Bit3 : JP4.1  / JP11.1
+Bit4 : JP4.2  / JP11.2
+Bit5 : JP5.1  / JP12.1
+Bit6 : 
+Bit7 : |  |  |  |  |  |
 
 
 ## Function input signal / Car door button input signal
