@@ -1,10 +1,9 @@
 # STEP COP Protocol (HJ Analysis) Version 2.5
 
 ## Activate SM.02 G and Beeping
-| ID | DATA | DATA | DATA | DATA | DATA | DATA | DATA | DATA |
-|:-----:|:----:|:----:|:--------------------------------:|:----:|:--------------------:|:----:|:----:|:----:|
-| ID 	| D[0] | D[1] | D[2] | D[3] | D[4] | D[5] | D[6] | D[7] |
-| 0x008 | 0x04 | 0x0A | Bit6 : Long beep Bit7: Fast beep |  | customer code = 0x75 |  |  |  |
+| ID 	| Data[0] | Data[1] | Data[2] | Data[3] | Data[4] | Data[5] <br/> - <br/> Data[7]|
+|:-----:|:----:|:----:|:--------------------------------:|:----:|:--------------------:|:----:|
+| 0x008 | 0x04 | 0x0A | Bit6 : Long beep Bit7: Fast beep |  | customer code = 0x75 |  |
 
 ## Car call button light output signal
 | ID | ID | DATA | DATA | DATA | DATA | DATA | DATA | DATA | DATA |
