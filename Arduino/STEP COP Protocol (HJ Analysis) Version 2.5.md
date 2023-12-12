@@ -36,7 +36,7 @@
 ||||||
 ||||||
 |**Data[4]**| Bit5 : Floor button beep enabled |
-|**handicapped COP Data[5-7]: Bit 5**| ESE only ASCII 0x20 Blank |
+|**handicapped COP <br/> Data[5-7]: Bit 5**| ESE only ASCII 0x20 Blank |
 
 
 ## Function input signal / Car door button input signal
