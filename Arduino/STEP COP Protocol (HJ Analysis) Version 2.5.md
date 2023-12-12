@@ -132,7 +132,7 @@ Bit7 : |  |  |  |  |  |
 
 ## Car call button input signals
 | ID | ID | Data[0] | Data[1] | Data[2] | Data[3] | Data[4] - Data[7] | 
-|:---------------:|:-----:|:-----------------------------------------------:|:----:|:---------------------------------------:|:--------------------:|:----:|:----:|:----:|:----:|
+|:---------------:|:-----:|:-----------------------------------------------:|:----:|:---------------------------------------:|:--------------------:|:----:|
 | master COP | 0x00A | 0x01 = release to press <br/> 0x00 = press to release | 0x6E | N floor car call button N = 0x01 ~ 0x60 | customer code = 0x75 |  |   
 | rear door COP | 0x00B | 0x01 = release to press <br/> 0x00 = press to release | 0x6F | N floor car call button N = 0x01 ~ 0x60 | customer code = 0x75 |  | 
 | handicapped COP | 0x00C | 0x01 = release to press <br/> 0x00 = press to release | 0x70 | N floor car call button N = 0x01 ~ 0x60 | customer code = 0x75 |  |
