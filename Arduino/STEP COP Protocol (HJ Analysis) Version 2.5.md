@@ -22,21 +22,12 @@
 | slave COP       | 0x008 | 0x10 | 0x0A | 56 - 49 | 64 - 57 | 72 - 65 | 80 - 73 | 88 - 81 | 96 - 89 |
 
 ## Car door button light output signal
-|| ID | Data[0] | Data[1] | Data[2]| Data[4] | Data[5] | Data[6] | Data[7]
-|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-| master COP | 0x008 | Bit0 : door open <br/> Bit1 : door close | 0x83 | SM09 OUTPUT / BES CAR 4 <br/> Bit0 : JP6.1    / JP9.1 <br/> Bit1 : JP6.2    / JP9.2 <br/> Bit2 : JP6.3    / JP9.3 <br/> Bit3 : JP7.1    / JP6.1 <br/> Bit4 : JP8.1    / JP7.1 <br/> Bit5 : JP9.1    / JP8.1 <br/> Bit6 : LED D21 <br/> Bit7 : |  | Bit5 : Floor button beep enabled | | | |
-| rear door COP | 0x008 | Bit0 : door open <br/> Bit1 : door close | 0x84 | SM09 OUTPUT / BES CAR 4 <br/> Bit0 : JP6.1    / JP9.1 <br/> Bit1 : JP6.2    / JP9.2 <br/> Bit2 : JP6.3    / JP9.3 <br/> Bit3 : JP7.1    / JP6.1 <br/> Bit4 : JP8.1    / JP7.1 <br/> Bit5 : JP9.1    / JP8.1 <br/> Bit6 : LED D21 <br/> Bit7 : |  | Bit5 : Floor button beep enabled | | | |
-| handicapped COP | 0x008 | Bit0 : door open <br/> Bit1 : door close | 0x85 | SM09 OUTPUT / BES CAR 4 <br/> Bit0 : JP6.1    / JP9.1 <br/> Bit1 : JP6.2    / JP9.2 <br/> Bit2 : JP6.3    / JP9.3 <br/> Bit3 : JP7.1    / JP6.1 <br/> Bit4 : JP8.1    / JP7.1 <br/> Bit5 : JP9.1    / JP8.1 <br/> Bit6 : LED D21 <br/> Bit7 : |  | Bit5 : Floor button beep enabled | ESE only ASCII <br/> 0x20 Blank | ESE only ASCII <br/> 0x20 Blank | ESE only ASCII <br/> 0x20 Blank |
-| slave COP | 0x008 | Bit0 : door open
-Bit1 : door close | 0x86 | SM09 OUTPUT / BES CAR 4  
-Bit0 : JP6.1    / JP9.1
-Bit1 : JP6.2    / JP9.2
-Bit2 : JP6.3    / JP9.3
-Bit3 : JP7.1    / JP6.1
-Bit4 : JP8.1    / JP7.1
-Bit5 : JP9.1    / JP8.1
-Bit6 : LED D21
-Bit7 : |  | Bit5 : Floor button beep enabled |  |  |  |
+|| ID | Data[0] | Data[1] | Data[2]| Data[4] |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| master COP | 0x008 | Bit0 : door open <br/> Bit1 : door close | 0x83 | SM09 OUTPUT / BES CAR 4 <br/> Bit0 : JP6.1    / JP9.1 <br/> Bit1 : JP6.2    / JP9.2 <br/> Bit2 : JP6.3    / JP9.3 <br/> Bit3 : JP7.1    / JP6.1 <br/> Bit4 : JP8.1    / JP7.1 <br/> Bit5 : JP9.1    / JP8.1 <br/> Bit6 : LED D21 <br/> Bit7 : |  | Bit5 : Floor button beep enabled |
+| rear door COP | 0x008 | Bit0 : door open <br/> Bit1 : door close | 0x84 | SM09 OUTPUT / BES CAR 4 <br/> Bit0 : JP6.1    / JP9.1 <br/> Bit1 : JP6.2    / JP9.2 <br/> Bit2 : JP6.3    / JP9.3 <br/> Bit3 : JP7.1    / JP6.1 <br/> Bit4 : JP8.1    / JP7.1 <br/> Bit5 : JP9.1    / JP8.1 <br/> Bit6 : LED D21 <br/> Bit7 : |  | Bit5 : Floor button beep enabled |
+| handicapped COP | 0x008 | Bit0 : door open <br/> Bit1 : door close | 0x85 | SM09 OUTPUT / BES CAR 4 <br/> Bit0 : JP6.1    / JP9.1 <br/> Bit1 : JP6.2    / JP9.2 <br/> Bit2 : JP6.3    / JP9.3 <br/> Bit3 : JP7.1    / JP6.1 <br/> Bit4 : JP8.1    / JP7.1 <br/> Bit5 : JP9.1    / JP8.1 <br/> Bit6 : LED D21 <br/> Bit7 : |  | Bit5 : Floor button beep enabled |
+| slave COP | 0x008 | Bit0 : door open <br/> Bit1 : door close | 0x86 | SM09 OUTPUT / BES CAR 4 <br/> Bit0 : JP6.1    / JP9.1 <br/> Bit1 : JP6.2    / JP9.2 <br/> Bit2 : JP6.3    / JP9.3 <br/> Bit3 : JP7.1    / JP6.1 <br/> Bit4 : JP8.1    / JP7.1 <br/> Bit5 : JP9.1    / JP8.1 <br/> Bit6 : LED D21 <br/> Bit7 : |  | Bit5 : Floor button beep enabled | 
 
 
 ## Function input signal / Car door button input signal
