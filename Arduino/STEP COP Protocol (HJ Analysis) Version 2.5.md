@@ -1,10 +1,10 @@
 # STEP COP Protocol (HJ Analysis) Version 2.5
-> `Data[]` consists of 8 bytes of data. **If there are unlisted Data[?0-7], those data are null in the list.**
+> `Data[]` consists of 8 bytes of data. **Null are those unlisted ?Data[0-7] in the table.**
 
 ## Activate SM.02 G and Beeping
-| ID 	| Data[0] | Data[1] | Data[2] | Data[3] | Data[4] | Data[5] <br/> - <br/> Data[7]|
-|:-----:|:----:|:----:|:--------------------------------:|:----:|:--------------------:|:----:|
-| 0x008 | 0x04 | 0x0A | Bit6 : Long beep Bit7: Fast beep |  | customer code = 0x75 |  |
+| ID 	| Data[0] | Data[1] | Data[2] | Data[4] |
+|:-----:|:----:|:----:|:--------------------------------:|:--------------------:|
+| 0x008 | 0x04 | 0x0A | Bit6 : Long beep Bit7: Fast beep | customer code = 0x75 |
 
 ## Car call button light output signal
 || ID | Data[0] | Data[1] | Data[2] | Data[3] | Data[4] | Data[5] | Data[6] | Data[7] |
