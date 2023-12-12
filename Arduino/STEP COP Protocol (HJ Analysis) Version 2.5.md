@@ -8,7 +8,7 @@
 ## Car call button light output signal
 || ID | Data[0] | Data[1] | Data[2] | Data[3] | Data[4] | Data[5] | Data[6] | Data[7] |
 |:---------------:|:-----:|:----:|:----:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-|<td colspan="8"> Floor 1 - 48 </td> |
+|<td colspan="3"> Floor 1 - 48 </td> |
 | master COP | 0x008 | 0x03 | 0x0A | 8 - 1 | 16 - 9 | 24 - 17 | 32 - 25 | 40 - 33 | 48 - 41 |
 | rear door COP | 0x008 | 0x07 | 0x0A | 8 - 1 | 16 - 9 | 24 - 17 | 32 - 25 | 40 - 33 | 48 - 41 |
 | handicapped COP | 0x008 | 0x08 | 0x0A | 8 - 1 | 16 - 9 | 24 - 17 | 32 - 25 | 40 - 33 | 48 - 41 |
