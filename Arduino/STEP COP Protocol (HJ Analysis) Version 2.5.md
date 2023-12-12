@@ -40,25 +40,10 @@
 
 
 ## Function input signal / Car door button input signal
-| ID | ID | DATA | DATA | DATA | DATA | DATA | DATA | DATA | DATA |
-|:---------------:|:-----:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|:----:|
-| ID | ID | D[0] | D[1] | D[2] | D[3] | D[4] | D[5] | D[6] | D[7] |
-| master COP | 0x00A | Bit0 : JP5.1 Input GX0 attendant reversion
-Bit1 : JP5.2 Input GX1 attendant
-Bit2 : JP5.3 Input GX2 independent
-Bit3 : JP5.4 Input GX3 attendant bypass
-Bit4 : JP5.5 Input GX4 fireman
-Bit5 : JP6 GX5 door opening button
-Bit6 : JP7 GX6 door closed button
-Bit7 : | 0x7E | SM09 INPUT / BES CAR 4
-Bit0 : JP3.1  / JP10.1 
-Bit1 : JP3.2  / JP10.2
-Bit2 : JP3.3  / JP10.3
-Bit3 : JP4.1  / JP11.1
-Bit4 : JP4.2  / JP11.2
-Bit5 : JP5.1  / JP12.1
-Bit6 : 
-Bit7 : |  |  |  |  |  |
+| | ID | Data[0] | Data[1] | Data[2] | 
+|:------:|:------:|:------:|:------:|:------:|
+| master COP | 0x00A | Bit0 : JP5.1 Input GX0 attendant reversion <br/> Bit1 : JP5.2 Input GX1 attendant <br/> Bit2 : JP5.3 Input GX2 independent <br/> Bit3 : JP5.4 Input GX3 attendant bypass <br/> Bit4 : JP5.5 Input GX4 fireman <br/> Bit5 : JP6 GX5 door opening button <br/> Bit6 : JP7 GX6 door closed button <br/> Bit7 : | 0x7E | SM09 INPUT / BES CAR 4 <br/> Bit0 : JP3.1  / JP10.1 <br/> Bit1 : JP3.2  / JP10.2 <br/> Bit2 : JP3.3  / JP10.3 <br/> Bit3 : JP4.1  / JP11.1 <br/> Bit4 : JP4.2  / JP11.2 <br/> Bit5 : JP5.1  / JP12.1 <br/> Bit6 : 
+Bit7 : |  
 | rear door COP | 0x00B | Bit0 : JP5.1 Input GX0 attendant reversion
 Bit1 : JP5.2 Input GX1 attendant
 Bit2 : JP5.3 Input GX2 independent
