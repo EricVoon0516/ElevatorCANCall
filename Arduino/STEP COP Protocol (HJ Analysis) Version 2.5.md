@@ -23,6 +23,8 @@
 
 ## Car door button light output signal
 > `Data[4]` carries the 5th bit for floor button beep enabling.
+>
+> `handicapped COP` has Data[5] - Data[7] for "ESE only ASCII 0x20 Blank".
 
 || ID | Data[0] | Data[1] | Data[2]|
 |:------:|:------:|:------:|:------:|:------:|
