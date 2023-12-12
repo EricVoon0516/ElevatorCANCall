@@ -1,4 +1,5 @@
 # STEP COP Protocol (HJ Analysis) Version 2.5
+> `Data[]` consists of 8 bytes of data. **If there are unlisted Data[?0-7], those data are null in the list.**
 
 ## Activate SM.02 G and Beeping
 | ID 	| Data[0] | Data[1] | Data[2] | Data[3] | Data[4] | Data[5] <br/> - <br/> Data[7]|
