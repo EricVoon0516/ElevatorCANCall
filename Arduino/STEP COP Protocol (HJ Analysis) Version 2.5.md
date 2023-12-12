@@ -22,8 +22,8 @@
 | slave COP       | 0x008 | 0x10 | 0x0A | 56 - 49 | 64 - 57 | 72 - 65 | 80 - 73 | 88 - 81 | 96 - 89 |
 
 ## Car door button light output signal
-|| ID | Data[0] | Data[1] | Data[2]| Data[4] |
-|:------:|:------:|:------:|:------:|:--------:|:------:|
+|| ID | Data[0] | Data[1] | Data[2]|
+|:------:|:------:|:------:|:------:|:------:|
 | master COP | 0x008 | Bit0 : door open <br/> Bit1 : door close | 0x83 | SM09 OUTPUT / BES CAR 4 <br/> Bit0 : JP6.1    / JP9.1 <br/> Bit1 : JP6.2    / JP9.2 <br/> Bit2 : JP6.3    / JP9.3 <br/> Bit3 : JP7.1    / JP6.1 <br/> Bit4 : JP8.1    / JP7.1 <br/> Bit5 : JP9.1    / JP8.1 <br/> Bit6 : LED D21 <br/> Bit7 : | 
 | rear door COP | 0x008 | Bit0 : door open <br/> Bit1 : door close | 0x84 | SM09 OUTPUT / BES CAR 4 <br/> Bit0 : JP6.1    / JP9.1 <br/> Bit1 : JP6.2    / JP9.2 <br/> Bit2 : JP6.3    / JP9.3 <br/> Bit3 : JP7.1    / JP6.1 <br/> Bit4 : JP8.1    / JP7.1 <br/> Bit5 : JP9.1    / JP8.1 <br/> Bit6 : LED D21 <br/> Bit7 : |
 | handicapped COP | 0x008 | Bit0 : door open <br/> Bit1 : door close | 0x85 | SM09 OUTPUT / BES CAR 4 <br/> Bit0 : JP6.1    / JP9.1 <br/> Bit1 : JP6.2    / JP9.2 <br/> Bit2 : JP6.3    / JP9.3 <br/> Bit3 : JP7.1    / JP6.1 <br/> Bit4 : JP8.1    / JP7.1 <br/> Bit5 : JP9.1    / JP8.1 <br/> Bit6 : LED D21 <br/> Bit7 : | 
